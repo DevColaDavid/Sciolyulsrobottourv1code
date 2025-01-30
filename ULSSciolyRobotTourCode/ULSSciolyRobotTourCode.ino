@@ -118,25 +118,6 @@ void stop(){
   motor4->run(RELEASE);
 }
 
-void move(direction, time){
-  switch(direction) {
-      case 'foward':
-        foward();
-        wait(time);
-        break;
-      case 'b':
-        foward();
-        wait(time);
-        break;
-      case 'c':
-        foward();
-        wait(time);
-        break;
-      case 'd':
-        foward();
-        wait(time);
-      default:
-}
 // void testrun(){
 //   delay(1500);
 //   foward();
